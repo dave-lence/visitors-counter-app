@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <title>People counting app</title>
+    </head>
+    <body>
+        <header>
+            <h1>My Counting App</h1>
+            <p>Keeping track of my visitors</p>
+        </header>
+
+        <main>
+            <h3 id="greetings"></h3>
+            <h1 id="count-el" class="number">0</h1>
+            <button class="add" onclick="add()">
+               INCREMENT
+            </button> 
+            <button class="minus" onclick="subtract()">DECREASE</button>  
+            <button class="save-btn" onclick="save()">SAVE</button> 
+            <p id="visit-el" class="save-text">Total Visitors: &nbsp;</p>    
+        </main>
+        <footer>
+            <p>Made with love by David</p>
+        </footer>
+
+        <script src="index.js"></script>
+    </body>
+</html>
